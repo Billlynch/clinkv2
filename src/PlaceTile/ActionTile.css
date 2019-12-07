@@ -1,0 +1,21 @@
+.ActionTile {
+    width: 6vw;
+    height: 6vw;
+    border: 1px solid white;
+}
+
+.discPlace {
+    border-radius: 50%;
+    width: 4vw;
+    height: 4vw;
+    padding: 10%;
+    background-color: white;
+}
+
+.player1Place:hover {
+    background-color: red;
+}
+
+.player2Place:hover {
+    background-color: yellow;
+}

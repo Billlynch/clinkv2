@@ -1,0 +1,22 @@
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.board {
+    display: flex;
+    flex-direction: row;
+}
+
+.PlaceTileContainer {
+    display: flex;
+    flex-direction: row;
+    margin-left: 6vw;
+}
+
+.BoardContainer {
+    display: flex;
+    flex-direction: column;
+    z-index: 100;
+}

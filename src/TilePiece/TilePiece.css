@@ -1,0 +1,47 @@
+.tile {
+    width: 6vw;
+    height: 6vw;
+    border: 1px solid blue;
+    background-color: blue;
+    text-align: center;
+    align-content: space-around;
+    display: flex;
+    justify-content: center;
+}
+
+.tilePiece {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.discContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.disc {
+    border-radius: 50%;
+    width: 4vw;
+    height: 4vw;
+    padding: 10%;
+    box-shadow: inset 4px 4px;
+}
+
+.player1 {
+    background-color: red;
+}
+
+.player2 {
+    background-color: yellow;
+}
+
+.empty {
+    background-color: white;
+}
+
+.special {
+    background-color: greenyellow;
+}
